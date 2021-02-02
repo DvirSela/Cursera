@@ -2,41 +2,7 @@
 <html lang="en">
 <head>
 	<title>Einstein</title>
-<style type="text/css">
-	article{
-		margin: 0 auto;
-		text-align: center;
-		color: yellow;
-		font-size: 20px;
-		width: 500px;
-		
-	}
-	h1{
-		text-align: center;
-	}
-	.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 20%;
-  height: 20%;
-}
-.highlight{
-	background: rgb(8,108,162);
-}
-
-.column{
-	float: left;
-	width:50%;
-	padding: 5px;
-}
-.row::after {
-	content: "";
-	clear: both;
-	display: table;
-}
-
-</style>
+<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 <h1>This is Einstein:</h1>
@@ -47,8 +13,9 @@
 <section id="His picture">
 	<h2>Albert Einstein's pictures:
 	<br>
-	<img src="einstein.png" alt="This is Einstein" height="488.5", widt="372">
-
+<!-- <a href="einstein.png" target="_blank">
+ -->	<img src="einstein.png" alt="This is Einstein" height="488.5", widt="372" class="center" onmouseover="this.src = 'einstein2.png'" onmouseout="this.src = 'einstein.png'">
+<!-- </a> -->
 </section>
 </body>
 <footer>
