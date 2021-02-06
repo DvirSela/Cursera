@@ -14,27 +14,13 @@ article{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 20%;
-  height: 20%;
+  height: : 488.5px;
+  width: : 372px;
 }
 
 .highlight{
 	background: rgb(8,108,162);
 }
-
-.column{
-	float: left;
-	width:50%;
-	padding: 5px;
-}
-.row::after {
-	content: "";
-	clear: both;
-	display: table;
-}
-img:hover{
-	cursor: help;
-}
 img{
-	border-radius: 100px 1px ;
+	border-radius: 100px 5px 100px 5px;
 }
